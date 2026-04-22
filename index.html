@@ -1,123 +1,111 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Majd Nassan Agha | IT304</title>
-
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #0b0f14;
-      color: #e6edf3;
-      margin: 40px;
-      line-height: 1.6;
-    }
-
-    .container {
-      max-width: 900px;
-      margin: auto;
-      text-align: center;
-    }
-
-    img {
-      width: 120px;
-      height: 120px;
-      border-radius: 50%;
-      border: 3px solid #30363d;
-      margin-bottom: 20px;
-    }
-
-    h1 {
-      margin-bottom: 10px;
-    }
-
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 25px;
-      text-align: left;
-    }
-
-    th, td {
-      border: 1px solid #30363d;
-      padding: 12px;
-      vertical-align: top;
-    }
-
-    th {
-      background-color: #111827;
-    }
-
-    .footer {
-      margin-top: 30px;
-      font-size: 14px;
-      color: #8b949e;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Majd Nassan Agha | IT 304 Assignment 4</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <div>
+        <h1 class="logo">Majd Nassan Agha</h1>
+        <p class="tagline">IT 304 • GitHub Website Improvement</p>
+      </div>
+      <nav>
+        <ul class="nav-menu">
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="ethics.html">Ethics</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-<div class="container">
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="pill">Assignment 4</span>
+          <h2>Improved Academic Website for IT in the Global Economy</h2>
+          <p>
+            This website expands the original Assignment 2 page into a cleaner,
+            multi-page GitHub Pages site. It includes navigation menus, improved
+            layout, stronger styling, and a dedicated ethics page focused on
+            responsible technology practice.
+          </p>
+          <div class="button-row">
+            <a class="button primary" href="ethics.html">Explore Ethics Page</a>
+            <a class="button secondary" href="about.html">Learn More About Me</a>
+          </div>
+        </div>
+        <div class="card profile-card">
+          <img src="profile.jpg" alt="Portrait of Majd Nassan Agha" class="profile-image" />
+          <h3>Majd Nassan Agha</h3>
+          <p>BS IT student with a concentration in Cybersecurity</p>
+          <p>Network Engineer with hands-on experience in infrastructure and security</p>
+          <a class="text-link" href="https://www.linkedin.com/in/majd-nassan-agha-2a754b290/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn</a>
+        </div>
+      </div>
+    </section>
 
-  <img src="profile.jpg" alt="Majd Nassan Agha">
+    <section class="section">
+      <div class="container grid three-up">
+        <article class="card">
+          <h3>Professional Focus</h3>
+          <p>
+            I enjoy building reliable network infrastructure, learning cybersecurity,
+            and improving systems that support real users in real environments.
+          </p>
+        </article>
+        <article class="card">
+          <h3>Personal Interests</h3>
+          <p>
+            Outside of IT, I enjoy music, films, cooking, and relaxing night drives.
+            I also enjoy spending time with my cats, Nemo and Lucy.
+          </p>
+        </article>
+        <article class="card">
+          <h3>Purpose of This Site</h3>
+          <p>
+            This project demonstrates how a basic GitHub Pages site can be improved
+            into a more organized and professional web presence using HTML and CSS.
+          </p>
+        </article>
+      </div>
+    </section>
 
-  <h1>IT 304 Assignment 2</h1>
-  <p>GitHub Pages Website – Spring 2026</p>
+    <section class="section alt-section">
+      <div class="container">
+        <h2 class="section-title">What Changed From Assignment 2</h2>
+        <div class="grid two-up">
+          <div class="card">
+            <h3>Before</h3>
+            <ul>
+              <li>One simple page</li>
+              <li>Limited visual styling</li>
+              <li>No page navigation</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Now</h3>
+            <ul>
+              <li>Multiple pages with working navigation</li>
+              <li>Professional styling using external CSS</li>
+              <li>Dedicated ethics content with references</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
-  <table>
-    <tr>
-      <th>Field</th>
-      <th>Details</th>
-    </tr>
-
-    <tr>
-      <td>Name</td>
-      <td>Majd Nassan Agha</td>
-    </tr>
-
-    <tr>
-      <td>Introduction</td>
-      <td>
-        Hello, I am a BS IT student with a concentration in Cybersecurity.
-        I work as a Network Engineer and enjoy building and securing network infrastructure.
-      </td>
-    </tr>
-
-    <tr>
-      <td>Hobbies</td>
-      <td>
-        Networking, cybersecurity labs, music performance, cooking, cinema, night drives with music
-      </td>
-    </tr>
-
-    <tr>
-      <td>Personal Interests</td>
-      <td>
-        I studied music and enjoy playing string instruments.
-        I have two cats named Nemo and Lucy.
-        I enjoy watching films, listening to Hans Zimmer compositions,
-        cooking, and relaxing night drives while listening to music.
-      </td>
-    </tr>
-
-    <tr>
-      <td>LinkedIn</td>
-      <td>
-        <a href="https://www.linkedin.com/in/majd-nassan-agha-2a754b290/" target="_blank" style="color:#58a6ff;">
-          Connect with me on LinkedIn
-        </a>
-      </td>
-    </tr>
-
-  </table>
-
-  <div class="footer">
-    © 2026 Majd Nassan Agha
-  </div>
-
-</div>
-
+  <footer class="site-footer">
+    <div class="container footer-flex">
+      <p>© 2026 Majd Nassan Agha</p>
+      <p>Built with HTML and CSS on GitHub Pages</p>
+    </div>
+  </footer>
 </body>
 </html>
